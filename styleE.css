@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: bzar;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto
+}
+
+.button {
+    float: left;
+    margin-top: 30px;
+    padding: 5px 15px;
+    border: solid black;
+    background-color: white;
+}
+
+.menu {
+    float: right;
+    margin-top: 30px
+}
+
+.menu ul li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    padding: 7px
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.img {
+    position: relative;
+    width: 97%;
+    height: 70vh;
+    margin-top: 15px;
+    margin-left: 20px;
+    background: url("home.jpg") no-repeat scroll;
+    background-position: center;
+    background-size: cover;
+}
+
+.para {
+    position: absolute;
+    top: 30%;
+    margin-left: 200px
+}
+
+h1 {
+    font-size: 40px
+}
+
+p,
+h1 {
+    color: black
+}
+
+.content {
+    margin-top: 70px;
+    text-align: center;
+    width: 100%;
+    height: 150px
+}
+
+.content-2 {
+    width: 100%;
+    position: relative;
+    height: 400px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 100
+}
+
+.content-2 .part-1 {
+    width: 50%;
+    float: right;
+}
+
+.content-2 .part-2 {
+    float: left;
+    position: relative;
+    width: 50%;
+}
+
+.content-2 .part-2 img {
+    width: 450px;
+    height: 350px;
+    position: absolute;
+    left: 200px;
+    top: 10px
+}
+
+.content-4 {
+    margin-top: 250px;
+    width: 100%;
+    position: relative;
+    height: 400px
+}
+
+.content-4 .part-4 {
+    width: 50%;
+    float: right;
+}
+
+.content-4 .part-5 {
+    position: relative;
+    float: left;
+}
+
+.content-4 .part-5 img {
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    left: 150px;
+    top: 60px
+}
+
+.content-3 {
+    position: relative;
+    width: 85%;
+    height: 70vh;
+    margin: 300px auto;
+    margin-bottom: 100px;
+    background: url("desktop.jpg") no-repeat scroll;
+    background-position: center;
+    background-size: cover;
+}
+
+.content-3 .part-3 {
+    position: absolute;
+    float: left;
+    width: 50%;
+    margin-left: 60px;
+    margin-top: 23px
+}
+
+.content-3 .part-6 {
+    float: right;
+    position: absolute;
+}
+
+.content-3 .part-6 {
+    position: absolute;
+    top: 140px;
+    right: 50px
+}
+
+.content-3 .part-6 p {
+    font-size: 130px;
+    border: solid 2px white;
+    padding: 30px 80px;
+    color: white
+}
+
+.content-5 {
+    position: relative;
+    margin: 100px auto
+}
+
+.content-5 .section {
+    position: absolute;
+    margin: auto auto;
+}
+
+.content-5 .section div.a1 {
+    float: left;
+    margin: 50px 100px
+}
+
+.content-5 .section .a1 img {
+    margin: 5px 30px
+}
+
+.content-5 .section .a1 p:nth-of-type(1) {
+    text-align: center;
+    font-weight: bold
+}
+
+.content-5 .section .a1 p:nth-of-type(2) {
+    text-align: center
+}
+
+.content-6 {
+    margin: 350px 250px;
+    margin-bottom: 100px
+}
+
+.gallary img {
+    width: 200px;
+    height: 150px
+}
+
+div.gallary {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.content-7 {
+    position: relative;
+    width: 85%;
+    height: 70vh;
+    margin: 100px auto;
+    margin-bottom: 100px;
+    background: url("70.jpg") no-repeat scroll;
+    background-position: center;
+    background-size: cover;
+}
+
+.content-7 img {
+    position: absolute;
+    top: 25%;
+    right: 50%
+}
+
+.content-7 p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 28%
+}
+
+.content-7 h3 {
+    margin: 15px auto;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 50px;
+    right: 48%
+}
+
+.content-8 {
+    position: relative;
+    width: 85%;
+    height: 70vh;
+    margin: 100px auto;
+    margin-bottom: 100px;
+    background: url("71.jpg") no-repeat scroll;
+    background-position: center;
+    background-size: cover;
+}
+
+.image {
+    position: relative;
+}
+
+.content-8 .image .a {
+    float: left;
+    margin: 100px 100px;
+    text-align: center
+}
+
+.content-8 .image .a :first-child {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px
+}
+
+.content-8 .image .a :last-child {
+    margin-top: 10px;
+    color: white;
+    font-size: 20px
+}
+
+.footer {
+    position: relative;
+    width: 98%;
+    height: 40vh;
+    margin: 100px 10px;
+    background-color: rgba(17, 16, 16, 0.904);
+}
+
+.social {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    float: left;
+}
+
+.footer h3 {
+    color: rgba(255, 255, 255, 0.719);
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    left: 40%
+}
+
+.footer a {
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 42%;
+    color: rgba(255, 255, 255, 0.719)
+}
